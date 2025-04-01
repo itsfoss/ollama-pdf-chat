@@ -1,0 +1,14 @@
+services:
+  ollama-pdf-chat:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: ollama-pdf-chat
+    volumes:
+      - ./_temp:/app/_temp
+      - ./_vectors:/app/_vectors
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    restart: unless-stopped
