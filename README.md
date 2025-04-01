@@ -1,4 +1,4 @@
-# Local RAG System
+# Ollama PDF Chat
 
 A local Retrieval-Augmented Generation (RAG) system built with Streamlit, LangChain, and Ollama. This system allows you to upload PDF documents and ask questions about their content, with all processing happening locally on your machine.
 
