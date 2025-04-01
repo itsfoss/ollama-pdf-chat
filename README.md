@@ -32,7 +32,7 @@ A local Retrieval-Augmented Generation (RAG) system built with Streamlit, LangCh
 2. Start the application using Docker Compose:
    
    ```bash
-   docker compose up
+   docker compose up -d --build
    ```
 
 3. Open your browser and navigate to:
